@@ -17,6 +17,7 @@ const Schedule = ({
 
   const selectDay = (day) => {
     setSelectedDay(day);
+    setSelectedTime();
     setSelectDayForAppointment(day);
   };
   const setSelectTime = (time) => {
