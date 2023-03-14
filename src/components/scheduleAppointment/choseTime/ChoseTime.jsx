@@ -17,7 +17,10 @@ const ChoseTime = ({ availableTime, setSelectTime, selectedTime }) => {
         time < toTime;
         time.setHours(time.getHours() + 1)
       ) {
-        if (time.toLocaleTimeString("en-US") !== new Date(available[0]?.to_unix * 1000).toLocaleTimeString("en-US"))
+        if (
+          time.toLocaleTimeString("en-US") !==
+          new Date(available[0]?.to_unix * 1000).toLocaleTimeString("en-US")
+        )
           times.push(time.toLocaleTimeString("en-US"));
       }
       setFromTimes(times);
@@ -53,7 +56,9 @@ const ChoseTime = ({ availableTime, setSelectTime, selectedTime }) => {
               className={takeBackGround(time)}
               key={time}
             >
-              {time}
+              {(time.length === 11 ? time.slice(0, 5) : time.slice(0, 4)) +
+                " " +
+                time.slice(8)}
             </div>
           ))}
         </div>
