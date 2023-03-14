@@ -1,0 +1,28 @@
+.container {
+  margin-top: 5%;
+}
+.textContainer {
+  display: flex;
+  justify-content: space-between;
+}
+.textStart {
+  order: 1;
+  font-family: "Lato";
+  font-style: normal;
+  font-weight: 800;
+  font-size: 17px;
+  line-height: 20px;
+}
+
+.textEnd {
+  order: 2;
+  font-family: "Lato";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 17px;
+  line-height: 20px;
+}
+hr {
+  border: 1px solid #e1e1e1;
+  margin: 20px 0;
+}
