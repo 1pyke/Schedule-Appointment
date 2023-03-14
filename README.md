@@ -1,11 +1,11 @@
-This is a [Book Apointment](https://github.com/1pyke/Appointment) project
+This is a [Book Apointment](https://github.com/1pyke/Schedule-Appointment) project
 
 #### Used React Tailwind Ui : is a collection of advanced React UI components for complex use cases.
 
 ## Getting Started
 
 ```bash
- -git clone git@github.com:1pyke/Appointment.git
+ -git clone https://github.com/1pyke/Schedule-Appointment
  -npm i
 ```
 
