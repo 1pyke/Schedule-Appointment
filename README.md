@@ -2,7 +2,7 @@ This is a [Book Apointment](https://github.com/1pyke/Schedule-Appointment) proje
 
 #### Used React Tailwind Ui : is a collection of advanced React UI components for complex use cases.
 
-#### Live Deploy on netlify : [Live](https://6410746e2b27bd02174c9d91--storied-pony-4ba011.netlify.app/)
+#### Live Deploy on netlify : [Live](https://schedule-appointment.netlify.app/)
 
 ## Getting Started
 
